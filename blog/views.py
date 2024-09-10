@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def main(request):
-    return HttpResponse("Hello, world. You're at the")
+    return render(request, 'blog/index.html')
